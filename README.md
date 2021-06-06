@@ -36,10 +36,11 @@ target : 0= less chance of heart attack 1= more chance of heart attack
 Модель: logreg
 
 Клонируем репозиторий и создаем образ
-$ git clone https://github.com/elenasuv/ML_in_business_course_work.git
-$ cd GB_docker_flask
-$ docker build -t gb_docker_flask .
+
+		$ git clone https://github.com/elenasuv/ML_in_business_course_work.git
+		$ cd GB_docker_flask
+		$ docker build -t gb_docker_flask .
+
 Запускаем контейнер
 
-
-$ docker run -d -p 8180:8180 gb_docker_flask
+		$ docker run -d -p 8180:8180 gb_docker_flask
